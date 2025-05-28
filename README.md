@@ -49,7 +49,7 @@ Check the `requirements.txt` for the full list.
 
 1. **Clone this repository**
     ```bash
-    git clone https://https://github.com/d3n-ze1/areYouLate.git
+    git clone https://github.com/d3n-ze1/areYouLate.git
     cd halifax-transit-assistant
     ```
 
