@@ -1,0 +1,80 @@
+===============================
+Transit Assistant Data Setup
+===============================
+
+This guide explains how to set up or replace the GTFS static data for the Transit Assistant.
+
+
+-------------------------------------
+DISCLAIMER
+-------------------------------------
+This tool is an independent, personal, or educational project and is **not affiliated with or officially endorsed** by Halifax Transit or any other transit agency.
+
+Users are responsible for ensuring they comply with the data usage terms provided by the official data source.
+
+Data accuracy is subject to the source feed, and no guarantees are made regarding the timeliness, completeness, or correctness of the displayed transit information.
+
+---------------------------------
+What is the Static_data.zip file?
+---------------------------------
+The file located at:
+    /data/Static_data.zip
+
+contains GTFS (General Transit Feed Specification) data, including:
+- Stops
+- Routes
+- Trips
+- Schedules
+- Agency information
+
+The program reads this data to provide real-time or static transit details.
+
+---------------------------
+How to Replace or Update It
+---------------------------
+
+✅ FOR HALIFAX TRANSIT:
+1️⃣  Visit the official Halifax Transit open data portal or GTFS data source.
+2️⃣  Download the **latest GTFS static feed** (usually a `.zip` file).
+3️⃣  Rename the file to:
+        Static_data.zip
+4️⃣  Place it in the project’s `/data/` folder, replacing the existing file.
+
+✅ FOR OTHER CITIES:
+1️⃣  Find the official or public GTFS data for your city (check the city’s transit agency website).
+2️⃣  Download the **GTFS static feed** as a `.zip` file.
+3️⃣  Rename the file to:
+        Static_data.zip
+4️⃣  Place it in the project’s `/data/` folder, replacing the existing file.
+
+⚠ IMPORTANT:
+- Keep the filename exactly as `Static_data.zip`.
+- Do **not** unzip the file; the program reads it directly.
+- Ensure the zip contains at least:
+    - agency.txt
+    - stops.txt
+    - routes.txt
+    - trips.txt
+    - stop_times.txt
+    - calendar.txt
+
+-------------------------------------
+Troubleshooting
+-------------------------------------
+If you see errors like:
+    zipfile.BadZipFile: Bad offset for central directory
+
+Check:
+✔ Did you fully download the file (no interrupted downloads)?
+✔ Is the `.zip` valid (can you open it manually)?
+✔ Did you put it in the correct `/data/` folder?
+✔ Did you leave it zipped (not extracted)?
+
+-------------------------------------
+Want to Expand Further?
+-------------------------------------
+If using other cities:
+- Make sure their GTFS files follow the standard schema.
+- Some features (like alerts or real-time vehicle tracking) might need additional local data or APIs.
+
+Enjoy using Transit Assistant for your city!
