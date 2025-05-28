@@ -1,4 +1,4 @@
-# 🚌 areYouLate() A Python-Powered Transit Assistant (🚏)
+# 🚌 areYouLate() A Python-Powered Transit Assistant
 
 **Halifax Transit Assistant** is a console-based Python tool designed to help users make sense of GTFS (General Transit Feed Specification) data. I built this as a personal project to apply and extend the concepts I learned in my **first-year Applied Computer Science courses at Dalhousie University**.
 
@@ -79,7 +79,7 @@ Check the `requirements.txt` for the full list.
 This project uses publicly available GTFS data for educational and personal learning purposes.
 
 - Halifax Transit data: [Halifax Open Data Portal](https://www.halifax.ca/home/open-data)  
-- GTFS-realtime Protocol Buffers: [GTFS Realtime Spec](https://developers.google.com/transit/gtfs-realtime)
+- GTFS Repo: https://github.com/google/transit
 
 ---
 
