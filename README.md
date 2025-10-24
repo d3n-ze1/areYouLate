@@ -77,9 +77,7 @@ Check the `requirements.txt` for the full list.
 ## 📝 Credits
 
 This project uses publicly available GTFS data for educational and personal learning purposes.
-
-- Halifax Transit data: [Halifax Open Data Portal](https://www.halifax.ca/home/open-data)  
-- GTFS Repo: https://github.com/google/transit
+All links are provided for informational purposes only, and I cannot guarantee their safety or content. I am not responsible for any issues that may arise from downloading or using materials from these sites. Please exercise caution when downloading files from the internet.
 
 ---
 
